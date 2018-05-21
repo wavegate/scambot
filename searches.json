@@ -1,0 +1,27 @@
+{
+	"items" : 
+		[
+			{
+				"name" : "Kaom's Heart",
+				"typeLine" : "Glorious Plate",
+				"explicits" : 
+					[
+						"+500 to Maximum Life"
+					],
+				"league" : "Bestiary"
+			},
+			{
+				"name": "Victario's Influence",
+				"typeLine" : "Lacquered Garb",
+				"league" : "Bestiary"
+			},
+			{
+				"category" : "ring",
+				"explicits" : 
+					[
+						"+40 to maximum Life"
+					],
+				"league" : "Bestiary"
+			}
+		]
+}
