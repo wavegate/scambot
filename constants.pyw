@@ -7,7 +7,7 @@ import re
 STASH_API = 'http://api.pathofexile.com/api/public-stash-tabs?id='
 #NEXT_API = 'http://api.poe.ninja/api/Data/GetStats?'
 NEXT_API = 'http://poe.ninja/api/Data/GetStats?league=Bestiary'
-RATES_API = 'http://poe.ninja/api/Data/GetCurrencyOverview?league='
+RATES_API = 'http://poe.ninja/api/Data/GetCurrencyOverview?league=Bestiary'
 
 # Currency strings
 
