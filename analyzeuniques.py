@@ -6,22 +6,24 @@ import webbrowser
 import searches
 import winsound
 
-rates_data = requests.get("http://poe.ninja/api/Data/GetCurrencyOverview?league=Bestiary").json()
+#https://pastebin.com/a6YDsZZK
+
+rates_data = requests.get("http://poe.ninja/api/Data/GetCurrencyOverview?league=Incursion").json()
 parsed_rates_data = {}
 
 urls = [
-	"http://poe.ninja/api/Data/GetUniqueFlaskOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetDivinationCardsOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetProphecyOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetUniqueArmourOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetUniqueWeaponOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetUniqueMapOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetUniqueAccessoryOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetUniqueJewelOverview?league=Bestiary",
-	"http://poe.ninja/api/Data/GetEssenceOverview?league=Bestiary",
+	"http://poe.ninja/api/Data/GetUniqueFlaskOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetDivinationCardsOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetProphecyOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetUniqueArmourOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetUniqueWeaponOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetUniqueMapOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetUniqueAccessoryOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetUniqueJewelOverview?league=Incursion",
+	"http://poe.ninja/api/Data/GetEssenceOverview?league=Incursion",
 ]
 
-CURRENCY_PRICES_URL : "http://poe.ninja/api/Data/GetCurrencyOverview?league=Bestiary"
+CURRENCY_PRICES_URL : "http://poe.ninja/api/Data/GetCurrencyOverview?league=Incursion"
 
 CURRENCY_FULL = ['Orb of Alteration', 'Orb of Fusing',
                  'Orb of Alchemy', 'Chaos Orb',
@@ -60,7 +62,7 @@ headers = {
 	"Referer" : "http://poe.trade/",
 	"Accept-Encoding" : "gzip, deflate",
 	"Accept-Language" : "en-US,en;q=0.9",
-	"Cookie" : "_ga=GA1.2.206788054.1525455159; __cfduid=dc212bce0ec374351dd9bcebeae36c5501525493980; league=Bestiary; _gid=GA1.2.2088975945.1526632014"
+	"Cookie" : "_ga=GA1.2.206788054.1525455159; __cfduid=dc212bce0ec374351dd9bcebeae36c5501525493980; league=Incursion; _gid=GA1.2.2088975945.1526632014"
 }
 
 def buildSearches(unique_data):
@@ -68,7 +70,7 @@ def buildSearches(unique_data):
 	for unique in unique_data:
 		search = {}
 		search['name'] = unique
-		search['league'] = 'Bestiary'
+		search['league'] = 'Incursion'
 		search['online'] = 'x'
 		search['corrupted'] = '0'
 		searches.append(search)
@@ -89,7 +91,7 @@ def cheapest(searches, unique_data):
 			if data_buyout:
 				amount = re.search("(\d{0,4}\.?\d{0,2}) (\w{3,5})", data_buyout).group(1)
 				match = re.search("(\w+) (\w{3,5})", data_buyout).group(2)
-				item_value = float(unique_data[search['name']][0])
+				item_value = float(unique_data[search['name']])
 				if match != "chaos":
 					for key, value in parsed_rates_data.items():
 						check = re.search(match, key, re.IGNORECASE)
@@ -97,14 +99,16 @@ def cheapest(searches, unique_data):
 							amount = float(amount)*float(value)
 				amount = float(amount)
 				difference = item_value - amount
-				toprint = search['name'] + ": " + str(item_value) + " - " + str(amount) + " = " + str(difference)
+				toprint = search['name'] + ": " + str(item_value) + " - " + str(amount) + " = " + str(difference) + " " + str(difference/item_value)
 				print(toprint)
-				if difference > 10:
+				if difference >= 5:
 					good_trades.append(search['name'])
-					#webbrowser.open_new_tab(response.url)
 					winsound.Beep(1000, 500)
 					with open("pop.txt", "a") as myfile:
-						myfile.write(search['name'] + "\n")
+						myfile.write(toprint + "\n")
+						if difference/item_value > 0.5:
+							myfile.write("xxxxxxxxxx\n")
+							webbrowser.open_new_tab(response.url)
 					print("!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 def average():
@@ -134,7 +138,7 @@ def average():
 card_data = {}
 
 def divinationCards():
-	url_data = requests.get("http://poe.ninja/api/Data/GetDivinationCardsOverview?league=Bestiary").json()
+	url_data = requests.get("http://poe.ninja/api/Data/GetDivinationCardsOverview?league=Incursion").json()
 	if url_data:
 		for item_data in url_data['lines']:
 			card_data[item_data['name']] = [item_data['chaosValue'], item_data['explicitModifiers'][0]['text']]
@@ -145,7 +149,7 @@ def searchList(searchList):
 		if unique in searchList:
 			search = {}
 			search['name'] = unique
-			search['league'] = 'Bestiary'
+			search['league'] = 'Incursion'
 			search['online'] = 'x'
 			search['corrupted'] = '0'
 			searches.append(search)
@@ -155,8 +159,55 @@ def theTaming():
 	tamingItems= ["The Spark and the Flame", "Berek's Respite", "Berek's Pass", "Berek's Grip", "The Taming"]
 	searchList(tamingItems)
 
+def openMaps(tier):
+	urls = ['http://poe.ninja/api/Data/GetMapOverview?league=Incursion']
+	unique_data = {}
+	for url in urls:
+		url_data = requests.get(url).json()
+		if url_data:
+			for item_data in url_data['lines']:
+				if item_data['mapTier'] == tier:
+					unique_data[item_data['name']] = [item_data['chaosValue'], item_data['mapTier']]
+	searches = []
+	for unique in unique_data:
+		search = {}
+		search['name'] = unique
+		search['league'] = 'Incursion'
+		search['online'] = 'x'
+		search['corrupted'] = '0'
+		search['level_min'] = unique_data[unique][1]
+		search['level_max'] = unique_data[unique][1]
+		searches.append(search)
+	for search in searches:
+		response = session.post('http://poe.trade/search', headers=headers, data=search)
+		line = response.html.find(".item", first=True)
+		webbrowser.open_new_tab(response.url)
+		if line:
+			attributes = line.attrs
+			data_buyout = attributes['data-buyout']
+			if data_buyout:
+				amount = re.search("(\d{0,4}\.?\d{0,2}) (\w{3,5})", data_buyout).group(1)
+				match = re.search("(\w+) (\w{3,5})", data_buyout).group(2)
+				item_value = float(unique_data[search['name']][0])
+				if match != "chaos":
+					for key, value in parsed_rates_data.items():
+						check = re.search(match, key, re.IGNORECASE)
+						if check:
+							amount = float(amount)*float(value)
+				amount = float(amount)
+				difference = item_value - amount
+				toprint = search['name'] + ": " + str(item_value) + " - " + str(amount) + " = " + str(difference)
+				print(toprint)
+				if difference > 10:
+					good_trades.append(search['name'])
+					#webbrowser.open_new_tab(response.url)
+					winsound.Beep(1000, 500)
+					with open("pop.txt", "a") as myfile:
+						myfile.write(search['name'] + "\n")
+					print("!!!!!!!!!!!!!!!!!!!!!!!!!")
+
 def maps():
-	urls = ['http://poe.ninja/api/Data/GetMapOverview?league=Bestiary']
+	urls = ['http://poe.ninja/api/Data/GetMapOverview?league=Incursion']
 	unique_data = {}
 	for url in urls:
 		url_data = requests.get(url).json()
@@ -167,7 +218,7 @@ def maps():
 	for unique in unique_data:
 		search = {}
 		search['name'] = unique
-		search['league'] = 'Bestiary'
+		search['league'] = 'Incursion'
 		search['online'] = 'x'
 		search['corrupted'] = '0'
 		search['level_min'] = unique_data[unique][1]
@@ -202,7 +253,7 @@ def maps():
 					print("!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 def prophecies():
-	urls = ['http://poe.ninja/api/Data/GetProphecyOverview?league=Bestiary']
+	urls = ['http://poe.ninja/api/Data/GetProphecyOverview?league=Standard']
 	unique_data = {}
 	for url in urls:
 		url_data = requests.get(url).json()
@@ -213,7 +264,7 @@ def prophecies():
 	for unique in unique_data:
 		search = {}
 		search['name'] = unique
-		search['league'] = 'Bestiary'
+		search['league'] = 'Standard'
 		search['online'] = 'x'
 		search['corrupted'] = '0'
 		searches.append(search)
@@ -245,5 +296,11 @@ def prophecies():
 						myfile.write(search['name'] + "\n")
 					print("!!!!!!!!!!!!!!!!!!!!!!!!!")
 
+def allUniques():
+	unique_data = parseNinja(urls)
+	searches = buildSearches(unique_data)
+	cheapest(searches, unique_data)
+
 findRates()
-prophecies()
+openMaps(6)
+#allUniques()

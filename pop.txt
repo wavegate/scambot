@@ -1,44 +1,42 @@
-The Taming
-The Taming
-The Taming
-The Taming
-The Taming
-The Taming
-The Taming
-The Taming
-Elder Summit Map
-Elder Villa Map
-Elder Overgrown Shrine Map
-Elder Defiled Cathedral Map
-Elder Crystal Ore Map
-Elder Necropolis Map
-Elder Gorge Map
-Elder Summit Map
-Elder Villa Map
-Elder Overgrown Shrine Map
-Elder Summit Map
-Elder Summit Map
-Elder Villa Map
-Elder Summit Map
-Elder Summit Map
-Elder Villa Map
-Elder Necropolis Map
-Elder Volcano Map
-Elder City Square Map
-Elder Underground River Map
-Elder Underground River Map
-Elder Gorge Map
-Elder Volcano Map
-Elder City Square Map
-Elder Castle Ruins Map
-Elder Racecourse Map
-Maze of the Minotaur Map
-Carcass Map
-Basilica Map
-Acid Lakes Map
-Shaped Pier Map
-Deadly Rivalry I
-Touched by the Wind
-The King's Path
-Thaumaturgical History III
-Pools of Wealth
+Lion's Roar: 12.0 - 3.64 = 8.36 0.6966666666666667
+xxxxxxxxxx
+The Fiend: 200.0 - 195.0 = 5.0 0.025
+Mawr Blaidd: 60.13 - 20.0 = 40.13 0.6673873274571761
+xxxxxxxxxx
+The Saint's Treasure: 11.0 - 3.0 = 8.0 0.7272727272727273
+xxxxxxxxxx
+The Offering: 8.0 - 1.0 = 7.0 0.875
+xxxxxxxxxx
+The Queen's Sacrifice: 1746.55 - 1543.75 = 202.79999999999995 0.11611462597692591
+Tinkerskin: 38.87 - 32.0 = 6.869999999999997 0.1767429894520195
+Shroud of the Lightless: 137.67 - 125.0 = 12.669999999999987 0.09203166993535257
+The Red Trail: 145.34 - 123.5 = 21.840000000000003 0.15026833631484796
+Lycosidae: 70.0 - 60.0 = 10.0 0.14285714285714285
+Third Piece of Storms: 53.95 - 45.0 = 8.950000000000003 0.16589434661723823
+Fourth Piece of Focus: 43.45 - 30.0 = 13.450000000000003 0.30955120828538557
+Inya's Epiphany: 34.3 - 25.0 = 9.299999999999997 0.271137026239067
+Starkonja's Head: 15.64 - 5.0 = 10.64 0.680306905370844
+xxxxxxxxxx
+Haemophilia: 7.0 - 0.26 = 6.74 0.9628571428571429
+xxxxxxxxxx
+Soul Taker: 44.0 - 35.0 = 9.0 0.20454545454545456
+Oni-Goroshi: 40.45 - 35.0 = 5.450000000000003 0.13473423980222504
+The Tempest: 15.0 - 0.26 = 14.74 0.9826666666666667
+xxxxxxxxxx
+Augyre: 35.31 - 30.0 = 5.310000000000002 0.15038232795242146
+Corona Solaris: 14.04 - 0.26 = 13.78 0.9814814814814815
+xxxxxxxxxx
+Presence of Chayula: 423.92 - 401.375 = 22.545000000000016 0.05318220418946975
+Bisco's Collar: 150.74 - 109.0 = 41.74000000000001 0.27690062359028794
+Voice of the Storm: 67.17 - 35.0 = 32.17 0.4789340479380676
+Berek's Respite: 38.32 - 33.0 = 5.32 0.13883089770354906
+The Halcyon: 20.0 - 15.0 = 5.0 0.25
+Timetwist: 14.0 - 5.0 = 9.0 0.6428571428571429
+xxxxxxxxxx
+Ventor's Gamble: 8.0 - 2.0 = 6.0 0.75
+xxxxxxxxxx
+The Red Dream: 134.57 - 99.0 = 35.56999999999999 0.2643234004607267
+Emperor's Wit: 71.11 - 61.75 = 9.36 0.1316270566727605
+Emperor's Cunning: 67.71 - 61.75 = 5.959999999999994 0.0880224486781863
+The Blue Dream: 57.96 - 30.0 = 27.96 0.4824016563146998
+Watcher's Eye: 50.0 - 40.0 = 10.0 0.2

@@ -1,5 +1,6 @@
 import requests
 import json
+import re
 
 headers = {
     'authority': 'pathofexile.gamepedia.com',
@@ -16,24 +17,71 @@ headers = {
 params = (
     ('action', 'cargoquery'),
     ('tables', 'items'),
-    ('fields', 'name,class,mods'),
-    ('where', ['rarity="Unique"', 'class="Body Armours"']),
+    ('fields', 'name,explicit_mods'),
+    ('where', ['rarity="Unique"', 'class="Daggers"']),
     ('limit', '500'),
     ('group_by', ['name']),
     ('format', 'json'),
 )
 
+params2 = (
+    ('action', 'cargoquery'),
+    ('tables', 'mods'),
+    ('fields', 'id,stat_text'),
+    ('where', ['id="MovementVelocityPenaltyHeavyArmourImplicit"']),
+    ('limit', '500'),
+    ('group_by', ['id']),
+    ('format', 'json'),
+)
+
+items = []
+
+filename = "SAVE.txt"
+file = open(filename, "a+")
+
 response = requests.get('https://pathofexile.gamepedia.com/api.php', headers=headers, params=params)
 data = json.loads(response.text)
 for item in data['cargoquery']:
-    print(item['title'])
-#print(json.dumps(data, sort_keys=True, indent=4))
+    item['title']['explicit mods'] = item['title']['explicit mods'].split(',')
+    items.append(item['title'])
 
-filename = "wikiquery.txt"
-file = open(filename, "w")
-file.write(json.dumps(data, sort_keys=True, indent=4))
+for item in items:
+    #file.write(str(item))
+    mods = []
+    for mod in item['explicit mods']:
+        file.write(mod)
+        stat_min = None
+        stat_max = None
+        modParams = (
+            ('action', 'cargoquery'),
+            ('tables', 'mods'),
+            ('fields', 'stat_text'),
+            ('where', ['id="' + mod + '"']),
+            ('limit', '500'),
+            ('group_by', ['id']),
+            ('format', 'json'),
+        )
+        modResponse = requests.get('https://pathofexile.gamepedia.com/api.php', headers=headers, params=modParams)
+        modData = json.loads(modResponse.text)
+        text = None
+        for md in modData['cargoquery']:
+            text = md['title']['stat text']
+        if text:
+            match = re.findall("(\w+-\w+)", text)
+            if match:
+                if len(match) == 1:
+                    numbers = re.search("(\w+)-(\w+)", match[0])
+                    stat_min = numbers.group(1)
+                    stat_max = numbers.group(2)
+                    file.write(stat_min + " " + stat_max)
+                #if len(match) == 2:
+                #    numbers1 = re.search("(\w+)-(\w+)", match[0])
+                #    numbers2 = re.search("(\w+)-(\w+)", match[1])
+                #    stat_min = (numbers1.group(1) + numbers1.group(2))/2
+    print(mods)
 
-#NB. Original query string below. It seems impossible to parse and
-#reproduce query strings 100% accurately so the one below is given
-#in case the reproduced version is not "correct".
-# response = requests.get('https://pathofexile.gamepedia.com/api.php?action=cargoquery&tables=items&fields=name,class&where=rarity=%22Unique%22&where=class=%22Jewel%22&limit=5&group_by=name', headers=headers)
+#Adds (50-60) to (120-140) [[Physical Damage]]
+
+#filename = "wikiquery.txt"
+#file = open(filename, "w")
+#file.write(json.dumps(data, sort_keys=True, indent=4))

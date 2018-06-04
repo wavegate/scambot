@@ -2,1218 +2,1044 @@
     "cargoquery": [
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt2,IncreasedLifeUnique__38,AllResistancesUniqueBodyStrInt2,GainEnduranceChargeWhenCriticallyHit,ShareEnduranceChargesWithParty,LifeRegenerationIfHitRecentlyUnique__1",
                 "name": "Ambu's Charge"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Arena Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SupportedByAddedFireDamageUnique__1_,LocalIncreasedEvasionRatingPercentUniqueBodyDex3,IncreasedLifeUnique__40,FireResistUniqueBodyDex3,AvoidIgniteUniqueBodyDex3,RangedWeaponPhysicalDamagePlusPercentUniqueBodyDex3,PhysicalAttackDamageReducedUniqueBodyDex3",
                 "name": "Ashrend"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityImplicitArmour1",
                 "name": "Assassin's Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,AllResistancesImplicitArmour1",
                 "name": "Astral Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrDexInt1h,IncreasedEnergyShieldUniqueBodyStrDexInt1,AllResistancesUniqueBodyStrDexInt1,LifeGainedFromEnemyDeathUniqueBodyStrDexInt1,ManaGainedFromEnemyDeathUniqueBodyStrDexInt1",
                 "name": "Atziri's Splendour"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Battle Lamellar"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Battle Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedPhysicalDamageReductionRatingUniqueBodyStrDex1,MaximumLifeUniqueBodyStrDex1,AllResistancesUniqueBodyStrDex1,FlaskLifeRecoveryRateUniqueBodyStrDex1,ExtraGore",
                 "name": "Belly of the Beast"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Blood Raiment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,DisplayGrantsBloodOfferingUnique__1_,LocalIncreasedEvasionAndEnergyShieldUnique__6_,MaximumLifeUnique__5,MinionLifeUnique__3_,LifeRegenerationRatePercentUnique__4_,MinionDodgeChanceUnique__1",
                 "name": "Bloodbond"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Bone Armour"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AddedPhysicalDamageUniqueBodyStr2,IncreasedLifeUniqueBodyStr2,PhysicalAttackDamageReducedUniqueBodyStr2,PhysicalDamageTakenPercentToReflectUniqueBodyStr2",
                 "name": "Bramblejack"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedAttackSpeedUniqueBodyDex7,LocalIncreasedEvasionRatingUniqueBodyDex7,ColdResistUniqueBodyDex7,MovementVelocityUniqueBodyDex7,FlaskManaRecoveryUniqueBodyDex7,PercentageDexterityUniqueBodyDex7",
                 "name": "Briskwrap"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreaseSocketedMovementGemLevelUniqueBodyDex5,IncreasedAttackSpeedUniqueBodyDex5,DamageWithMovementSkillsUniqueBodyDex5,LocalIncreasedEvasionRatingPercentUniqueBodyDex5,MovementVelocityUniqueBodyDex5,AttackAndCastSpeedOnUsingMovementSkillUnique__1",
                 "name": "Bronn's Lithe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Bronze Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Buckskin Tunic"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Cabalist Regalia"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt1,IncreasedLifeUniqueBodyDexInt1,AllResistancesUniqueBodyDexInt1,AreaOfEffectUniqueBodyDexInt1,AreaDamageUniqueBodyDexInt1,ExtraGore",
                 "name": "Carcass Jack"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedManaImplicitArmour1",
                 "name": "Carnal Armour"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Chain Hauberk"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Chainmail Doublet"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Chainmail Tunic"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Chainmail Vest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedArmourAndEnergyShieldUnique__11,IncreasedLifeUnique__81,AnimatedGuardianDamagePerAnimatedWeaponUnique__1__,AnimatedMinionsHaveMeleeSplashUnique__1,IncreasedAnimatedMinionSplashDamageUnique__1,AnimateGuardianWeaponOnGuardianKillUnique__1_,AnimateGuardianWeaponOnAnimatedWeaponKillUnique__1,CannnotHaveNonAnimatedMinionsUnique__1",
                 "name": "Chains of Command"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedChaosDamageUniqueBodyStrDex4,LocalIncreasedArmourAndEvasionUniqueBodyStrDex4,IncreasedLifeUniqueBodyStrDex4,IncreasedLifeLeechRateUniqueBodyStrDex4",
                 "name": "Cherrubim's Maleficence"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Chestplate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt2,IncreasedManaUniqueBodyDexInt2,BaseManaRegenerationUniqueBodyDexInt2,DamageTakenFromManaBeforeLifeUniqueBodyDexInt2,ManaShield",
                 "name": "Cloak of Defiance"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,FireResistUniqueBodyInt2,BurnDurationUniqueBodyInt2,ChanceToIgniteUniqueBodyInt2,AttackerTakesFireDamageUniqueBodyInt2,PhysicalDamageTakenAsFirePercentUniqueBodyInt2",
                 "name": "Cloak of Flame"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEnergyShieldPercentUnique__5,MinionBlindImmunityUnique__1,MinionChanceToBlindOnHitUnique__1,DisplaySocketedMinionGemsSupportedByLifeLeechUnique__1,MagicItemsDropIdentifiedUnique__1",
                 "name": "Cloak of Tawm'r Isley"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Colosseum Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Commander's Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Conjurer's Vestment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Conquest Chainmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Copper Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Coronal Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityImplicitArmour1,LocalIncreasedEvasionRatingPercentUnique__2,ChaosResistUnique__3,AdditionalCurseOnEnemiesUnique__1,IgnoreHexproofUnique___1,ChanceToPoisonCursedEnemiesOnHitUnique__1",
                 "name": "Cospri's Will"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,GrantsCrabAspect1_,LocalIncreasedPhysicalDamageReductionRatingPercentUnique__16,IncreasedLifeUnique__72_,FireAndColdResistUnique__3,BleedingImmunityUnique__2,MaximumCrabBarriersUnique__1",
                 "name": "Craiceann's Carapace"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Crimson Raiment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Crusader Chainmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Crusader Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Crypt Armour"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,StrengthUniqueBodyStrInt3,IntelligenceUniqueBodyStrInt3,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt3,ColdResistUniqueBodyStrInt3,CannotBeChilledUniqueBodyStrInt3,PhysicalDamageTakenAsColdUnique__1,FireDamageTakenAsColdUnique___2_,ChillEffectUnique__1",
                 "name": "Crystal Vault"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Cutthroat's Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedArmourAndEvasionRatingUniqueBodyStrDex3,IncreasedLifeUniqueBodyStrDex3_,LifeLeechPermyriadUniqueBodyStrDex3,ChanceToDodgeUniqueBodyStrDex3,LoseEnduranceChargesWhenHitUniqueBodyStrDex3,EnduranceChargeOnKillUniqueBodyStrDex3,GainOnslaughtWhenHitUniqueBodyStrDex3",
                 "name": "Daresso's Defiance"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,AllResistancesImplicitArmour1,ChaosDegenAuraUnique__1,AllAttributesUniqueBodyStr3,IncreasedAttackSpeedUniqueBodyStr3,LocalIncreasedPhysicalDamageReductionRatingUniqueBodyStr3,IncreasedLifeUnique__32,LifeLeechPermyriadUniqueBodyStr3,ChaosDegenerationOnKillUniqueBodyStr3,ItemBloodFootstepsUniqueBodyStr3",
                 "name": "Death's Oath"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "AllResistancesDemigodsImplicit,LocalIncreaseSocketedGemLevelUnique__4,AllAttributesUnique__1",
                 "name": "Demigod's Dominance"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SupportedByLesserPoisonUnique__1,LocalIncreasedEvasionAndEnergyShieldUnique__7,LocalIncreasedEnergyShieldUnique__13_,AllResistancesUnique__11__,PoisonDamageWithOver300DexterityUnique__1,PoisonDurationWithOver150IntelligenceUnique__1",
                 "name": "Dendrobate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Desert Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Destiny Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Destroyer Regalia"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Devout Chainmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalCanSocketIgnoringColourUnique__1,SocketedGemsInRedSocketEffectUnique__1,SocketedGemsInGreenSocketEffectUnique__1,SocketedGemsInBlueSocketEffectUnique__1,SocketedGemsInWhiteSocketEffectUnique__1,LocalNoAttributeRequirementsUnique__1",
                 "name": "Dialla's Malefaction"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SupportedByBlasphemyUnique,GrantCursePillarSkillUnique,SocketedCursesUncastableUnique,IntelligenceUnique__8,LocalIncreasedEnergyShieldPercentUnique__14,CurseEffectivenessUnique__1",
                 "name": "Doedre's Skin"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Dragonscale Doublet"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Eelskin Tunic"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Elegant Ringmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Exquisite Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedArmourAndEvasionUnique__7,IncreasedLifeUnique__74,CatAspectReservesNoManaUnique__1___,CatsStealthDurationUnique__1_,GainMaxFrenzyAndPowerOnCatsStealthUnique__1,GainPhasingWhileCatsStealthUnique__1",
                 "name": "Farrul's Fur"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IntelligenceUnique__10,LocalIncreasedEnergyShieldPercentUnique__17,FlatEnergyShieldRegenerationUnique__1,DamageDealtByWebbedEnemiesUnique__1,ResistancesOfWebbedEnemiesUnique__1,AreaOfEffectAspectOfSpiderUnique__1",
                 "name": "Fenumus' Shroud"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Field Lamellar"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AddedPhysicalDamageUniqueBodyDex4,DexterityUniqueBodyDex4,EvasionOnFullLifeUnique__1_,LocalIncreasedEvasionRatingUnique__3,LocalIncreasedEvasionRatingPercentUnique__14,MovementVelocityUniqueBodyDex4,EnemyExtraDamageRollsOnFullLifeUnique__1",
                 "name": "Fox's Fortune"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AddedPhysicalDamageUniqueBodyDex4,DexterityUniqueBodyDex4,EvasionOnFullLifeUniqueBodyDex4,LocalIncreasedEvasionRatingPercentUniqueBodyDex4,MovementVelocityUniqueBodyDex4",
                 "name": "Foxshade"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Frontier Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Full Chainmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Full Dragonscale"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Full Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Full Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Full Ringmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Full Scale Armour"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Full Wyrmscale"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "General's Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedArmourAndEnergyShieldUnique__2,IncreasedLifeUnique___7,LocalIncreasedEnergySheildUnique__2_,AllResistancesUnique__3,EnergyShieldPer5StrengthUnique__1,ZealotsOathUnique__1",
                 "name": "Geofri's Sanctuary"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Gladiator Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Glorious Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "",
                 "name": "Glorious Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "AllResistancesDemigodsImplicit",
                 "name": "Golden Mantle"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Golden Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,ItemFoundQuantityIncreaseUniqueBodyStr5,ItemFoundRarityIncreaseUniqueBodyStr5,FireResistUniqueBodyStr5,ColdResistUniqueBodyStr5,LightningResistUniqueBodyStr5,MovementVelocityUniqueBodyStr5,ReducedStrengthRequirementUniqueBodyStr5",
                 "name": "Greed's Embrace"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedPhysicalDamagePercentUnique__4,IncreasedLifeUnique__34,ColdResistUnique__13,LifeRegenerationRatePercentUnique__2,ActorSizeUnique__2,CannotDealSpellDamageUnique__1,SpellsAreDisabledUnique__1",
                 "name": "Gruthkul's Pelt"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Holy Chainmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Hussar Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,DexterityUniqueBodyDex1,AddedColdDamageUniqueBodyDex1,LocalIncreasedEvasionRatingPercentUniqueBodyDex1,IncreasedChillDurationUniqueBodyDex1,ChanceToDodgeUniqueBodyDex1,ChanceToDodgeSpellsUniqueBodyDex1",
                 "name": "Hyrri's Ire"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,StrengthUniqueBodyStrInt3,IntelligenceUniqueBodyStrInt3,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt3,ColdResistUniqueBodyStrInt3,CannotBeChilledUniqueBodyStrInt3,IncreasedChillDurationUniqueBodyStrInt3",
                 "name": "Icetomb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedPhysicalDamageReductionRatingUniqueBodyStrInt5,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt5,IncreasedLifeUniqueBodyStrInt5,LifeLeechPermyriadUniqueBodyStrInt5,ElementalDamagePercentAddedAsChaosUnique__3,ElementalDamageTakenAsChaosUniqueBodyStrInt5,LightRadiusUniqueBodyStrInt5,ArcaneVisionUniqueBodyStrInt5",
                 "name": "Incandescent Heart"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Infantry Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreaseSocketedFireGemLevelUniqueBodyInt4,FireDamagePercentUniqueBodyInt4,CriticalStrikeChanceUniqueBodyInt4,LocalIncreasedEnergyShieldUniqueBodyInt4,ConvertFireToChaosUniqueBodyInt4Updated,SpellDamageTakenOnLowManaUniqueBodyInt4",
                 "name": "Infernal Mantle"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedLifeUnique__58,IncreasedDamageIfShockedRecentlyUnique__1,ShockEffectUnique__1,UnaffectedByShockUnique__1,ShockedEnemiesExplodeUnique__1_",
                 "name": "Inpulsa's Broken Heart"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedPhysicalDamageReductionRatingPercentUnique__12,ReducedMovementVelocityUnique__2,BlockPercentUnique__1,CannotBlockSpellsUnique__1,StrengthDamageBonus3Per10Unique__1",
                 "name": "Iron Heart"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "HasNoSockets,IncreasedLifeUniqueBodyStr1,FireDamagePercentBodyStr1",
                 "name": "Kaom's Heart"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt6,IncreasedLifeUniqueBodyStrInt6,IncreasedManaUniqueBodyStrInt6,EnduranceChargeDurationUniqueBodyStrInt4,LifeGainOnEndurangeChargeConsumptionUniqueBodyStrInt6",
                 "name": "Kingsguard"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionRatingPercentUnique__3,IncreasedLifeUnique__17,FireResistUnique__6,ReducedDamageIfNotHitRecentlyUnique__1,IncreasedEvasionIfHitRecentlyUnique___1",
                 "name": "Kintsugi"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Lacquered Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Latticed Ringmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Light Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt4,PhysicalDamageConvertToChaosBodyStrInt4,AttackerTakesChaosDamageUniqueBodyStrInt4,LightRadiusUniqueBodyStrInt4,DesecratedGroundOnBlockUniqueBodyStrInt4",
                 "name": "Lightbane Raiment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AddedLightningDamageUniqueBodyStrDex2,LocalIncreasedArmourAndEvasionUniqueBodyStrDex2,IncreasedLifeUniqueBodyStrDex2,LightningResistUniqueBodyStrDex2,PhysicalDamageTakenAsLightningPercentUniqueBodyStrDex2",
                 "name": "Lightning Coil"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBodyStr6,IncreasedLifeUniqueBodyStr6,ManaLeechPermyriadUniqueBodyStr6,SocketedGemsSupportedByPierceUniqueBodyStr6,ChanceToBePiercedUniqueBodyStr6",
                 "name": "Lioneye's Vision"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Lordly Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,HasSixSocketsUnique__1,AddedPhysicalDamageUnique__6_,AllAttributesUnique__6,CriticalStrikeChanceUnique__2,LocalIncreasedEnergyShieldUnique__20,IncreasedLifeUnique__80_,IncreasedManaUnique__12,ItemFoundRarityIncreaseUnique__3,ElementalDamagePercentUnique__1,MaximumResistancesOverrideUnique__1",
                 "name": "Loreweave"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Loricated Ringmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Mage's Vestment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Majestic Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Necromancer Silks"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SpellDamageImplicitArmour1",
                 "name": "Occultist's Vestment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Oiled Coat"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Oiled Vest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Ornate Ringmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Padded Jacket"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Padded Vest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Plate Vest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionRatingPercentUniqueBodyDex6,IncreasedLifeUniqueBodyDex6,FireResistanceBodyDex6,ColdResistanceBodyDex6,LightningResistanceBodyDex6,MovementVeolcityUniqueBodyDex6,MovementVelicityPerEvasionUniqueBodyDex6,PhysicalDamageFromBeastsUniqueBodyDex6",
                 "name": "Queen of the Forest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Quilted Jacket"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Ringmail Coat"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sacrificial Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sadist Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sage's Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Saint's Hauberk"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Saintly Chainmail"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AllAttributesUnique__5,LightningResistUnique__14,ReducedManaReservationCostUnique__2,AvianAspectBuffEffectUnique__1,GrantAviansAspectToAlliesUnique__1,LocalFlatIncreasedEvasionAndEnergyShieldUnique__2_",
                 "name": "Saqawal's Nest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Savant's Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Scale Doublet"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Scale Vest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Scarlet Raiment"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Scholar's Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sentinel Jacket"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Shabby Jerkin"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sharkskin Tunic"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SpellDamageImplicitArmour1,LocalIncreasedEnergyShieldUniqueBodyInt1,ReducedEnergyShieldDelayUniqueBodyInt1,LightningResistUniqueBodyInt1,AttackerTakesLightningDamageUniqueBodyInt1,ChaosTakenOnES",
                 "name": "Shavronne's Wrappings"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedManaImplicitArmour1,AbyssJewelSocketUnique__3,DisplaySupportedByElementalPenetrationUnique__1,LocalDisplayGrantLevelXShadeFormUnique__1,LocalIncreasedEvasionAndEnergyShieldUnique__11_,MaximumLifeUnique__10_,MaximumManaUnique__5,IncreasedLifePerAbyssalJewelUnique__1,IncreasedManaPerAbyssalJewelUnique__1_",
                 "name": "Shroud of the Lightless"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Silk Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Silken Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Silken Vest"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Silken Wrap"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Simple Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,RemoveStatsUnique__1,Roll6LinkedRandomColourSocketsUnique__1,LocalIncreaseSocketedGemLevelUnique__5,AllDefencesUnique__2,OnlySocketCorruptedGemsUnique__1,BreachChaosUniqueUnleashed__1_",
                 "name": "Skin of the Lords"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,RemoveStatsUnique__1,Roll6LinkedRandomColourSocketsUnique__1,LocalIncreaseSocketedGemLevelUnique__5,AllDefencesUnique__2,BreachChaosUnique__1",
                 "name": "Skin of the Loyal"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sleek Coat"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,StrengthUniqueBodyStr4,LocalIncreasedPhysicalDamageReductionRatingUniqueBodyStr4,ChaosDamageOverTimeUnique__1,LightRadiusUniqueBodyStr4,ChaosTakenOnES,ChaosDamageTakenUniqueBodyStr4",
                 "name": "Solaris Lorica"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Soldier's Brigandine"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,DisplaySocketedGemGetsSpellTotemBodyInt7,SpellDamageUniqueBodyInt7,LocalIncreasedEnergyShieldUniqueBodyInt7,TotemLifeUniqueBodyInt7,AdditionalTotemsUniqueBodyInt7,RandomlyCursedWhenTotemsDieUniqueBodyInt7",
                 "name": "Soul Mantle"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Spidersilk Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Strapped Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Sun Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "Sun Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,RemoveStatsFromTabulaRasa,ItemHasSixLinkedWhiteSocketsUniqueBodyInt6",
                 "name": "Tabula Rasa"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SpellDamageUnique__3,LocalIncreasedEnergyShieldPercent___3,LocalIncreasedEnergyShieldUnique__3,AreaOfEffectUnique__1,IncreasedDamageTakenUnique__1,EnergyShieldRecoveryRateUnique__1",
                 "name": "The Beast Fur Shawl"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,ReducedChanceToBlockUnique__1,LocalIncreasedPhysicalDamageReductionRatingPercentUnique__3,ReducedMovementVelocityUnique__1,SelfShockDurationUnique__2,TakeNoExtraDamageFromCriticalStrikesUnique__1",
                 "name": "The Brass Dome"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreaseSocketedHeraldLevelUnique__1_,LocalIncreasedEnergyShieldPercentUnique___4_,StunAvoidancePerHeraldUnique__1,HeraldsAlwaysCost45Unique__1",
                 "name": "The Coming Calamity"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SocketedGemsHaveAddedChaosDamageUniqueBodyInt3,SocketedGemsHaveBloodMagicUnique__1,IntelligenceUniqueBodyInt3,MaximumLifeUniqueBodyInt3,LocalIncreasedEnergyShieldUniqueBodyInt3",
                 "name": "The Covenant"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionRatingPercentUnique__4,IncreasedLifeUnique__37,ColdResistUnique__14,PercentageDexterityUnique__4,ArcticArmourReservationCostUnique__1,EvasionIncreasedByUncappedColdResistanceUnique__1,KeystonePhaseAcrobaticsUnique__1,BreachColdUniqueUnleashed__1",
                 "name": "The Perfect Form"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionRatingPercentUniqueBodyStrDex5,IncreasedLifeUniqueBodyStrDex5,FireResistUnique__11,MovementVelocityUniqueBodyStrDex5_,IncreasedFireDamageTakenUniqueBodyStrDex5,FireDamageTakenConvertedToPhysicalUniqueBodyStrDex5,SqueakingWhenTakingFireDamageUniqueBodyStrDex5",
                 "name": "The Rat Cage"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedManaImplicitArmour1,IncreasedLifeUniqueBodyDexInt3,LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt3,MovementVelocityPerFrenzyChargeUniqueBodyDexInt3,ChargeDurationUniqueBodyDexInt3,LifeRegenPerMinutePerEnduranceChargeUniqueBodyDexInt3",
                 "name": "The Restless Ward"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,DexterityUnique__4,LocalIncreasedEvasionRatingPercentUnique__4,IncreasedLifeUnique__26,ChanceToDodgeSpellsUnique__2,ArcticArmourBuffEffectUnique__1_,EvasionIncreasedByUncappedColdResistanceUnique__1,BreachColdUnique__1",
                 "name": "The Snowblind Grace"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Thief's Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,SocketedGemsGetElementalProliferationUniqueBodyInt5,AddedFireDamageUniqueBodyInt5,AddedColdDamageUniqueBodyInt5,AddedLightningDamageUniqueBodyInt5_,IncreasedCastSpeedUniqueBodyInt5,LocalIncreasedEvasionRatingUniqueBodyInt5,IncreasedLifeUniqueBodyInt5,IncreasedManaUniqueBodyInt5,LocalIncreasedEnergyShieldUniqueBodyInt5,FireResistUniqueBodyInt5,ColdResistUniqueBodyInt5,LightningResistUniqueBodyInt5",
                 "name": "Thousand Ribbons"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedEvasionAndEnergyShieldUnique__4,IncreasedLifeUnique__21,TrapCooldownRecoveryUnique__1,GainFrenzyChargeOnTrapTriggeredUnique__1,PhasingOnTrapTriggeredUnique__1,GainLifeOnTrapTriggeredUnique__1,GainEnergyShieldOnTrapTriggeredUnique__1_",
                 "name": "Tinkerskin"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Triumphant Lamellar"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Vaal Regalia"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Varnished Coat"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreaseSocketedAuraGemLevelUniqueBodyDexInt4,SupportedByGenerosityUniqueBodyDexInt4_,SocketedItemsHaveReducedReservationUniqueBodyDexInt4,LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt4,IncreasedAuraRadiusUniqueBodyDexInt4,IncreasedAuraEffectUniqueBodyDexInt4",
                 "name": "Victario's Influence"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,LocalIncreasedArmourAndEvasionUnique__2,IncreasedLifeUnique__10,ColdResistUnique__6,MovementVelocityUnique___5,ChanceToPoisonWithAttacksUnique___1,CannotBePoisonedUnique__1",
                 "name": "Viper's Scales"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedManaUniqueBodyInt9,LocalIncreasedEnergyShieldUniqueBodyInt9,MinionLifeUniqueBodyInt9,MinionDamageUniqueBodyInt9,MaximumMinionCountUniqueBodyInt9,MinionUnholyMightOnKillUniqueBodyInt9",
                 "name": "Vis Mortis"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit,LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt1,MaximumManaUniqueBodyStrInt1,AddPowerChargeOnCrit1__",
                 "name": "Voll's Protector"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AddedPhysicalDamageUniqueBodyStr2,LocalIncreasedPhysicalDamageReductionRatingTransformedUnique__1,IncreasedLifeUniqueBodyStr2,PhysicalAttackDamageReducedUniqueBodyStr2,PhysicalDamageTakenPercentToReflectUniqueBodyStr2",
                 "name": "Wall of Brambles"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyHeavyArmourImplicit",
                 "name": "War Plate"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Waxed Garb"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Widowsilk Robe"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Wild Leather"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,IncreasedAttackSpeedUniqueBodyDex7,LocalIncreasedEvasionRatingUnique__2,ColdResistUniqueBodyDex7,MovementVelocityUniqueBodyDex7,FlaskManaRecoveryUniqueBodyDex7,PercentageDexterityUniqueBodyDex7,DamagePer15DexterityUnique__1",
                 "name": "Wildwrap"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Wyrmscale Doublet"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,GrantsSummonBeastRhoaUnique__1,IncreasedAccuracyUnique__5,LocalIncreasedEvasionRatingPercentUnique__9,IncreasedLifeUnique__51,ProjectileAttackCriticalStrikeChanceUnique__1,ProjectileAttacksChanceToMaimBeastialMinionUnique__1,AttackAndMovementSpeedBeastialMinionUnique__1",
                 "name": "Yriel's Fostering"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit,AddedLightningDamageUniqueBodyInt8,LocalIncreasedEnergyShieldPercentUniqueBodyInt8,ChaosResistUniqueBodyInt8,LightRadiusUniqueBodyInt8,ConsecratedGroundOnBlockUniqueBodyInt8",
                 "name": "Zahndethus' Cassock"
             }
         },
         {
             "title": {
-                "class": "Body Armours",
                 "mods": "MovementVelocityPenaltyLightArmourImplicit",
                 "name": "Zodiac Leather"
             }
