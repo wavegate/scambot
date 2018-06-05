@@ -5,11 +5,11 @@ import json
 import webbrowser
 import searches
 import winsound
+import tradebot
 
-#https://pastebin.com/a6YDsZZK
+#Post limit, maximum pastes per 24h reached
 
-rates_data = requests.get("http://poe.ninja/api/Data/GetCurrencyOverview?league=Incursion").json()
-parsed_rates_data = {}
+session = HTMLSession()
 
 urls = [
 	"http://poe.ninja/api/Data/GetUniqueFlaskOverview?league=Incursion",
@@ -33,8 +33,12 @@ CURRENCY_FULL = ['Orb of Alteration', 'Orb of Fusing',
                  'Orb of Scouring', 'Blessed Orb',
                  'Orb of Regret', 'Regal Orb', 'Divine Orb',
                  'Vaal Orb']
+parsed_rates_data = {}
+good_trades = []
 
 def findRates():
+	rates_data = requests.get("http://poe.ninja/api/Data/GetCurrencyOverview?league=Incursion").json()
+
 	if rates_data:
 	    for currency_data in rates_data['lines']:
 	        if currency_data['currencyTypeName'] in CURRENCY_FULL:
@@ -48,8 +52,6 @@ def parseNinja(urls):
 			for item_data in url_data['lines']:
 				unique_data[item_data['name']] = item_data['chaosValue']
 	return unique_data
-
-
 
 headers = {
 	"Connection" : "keep-alive",
@@ -76,9 +78,30 @@ def buildSearches(unique_data):
 		searches.append(search)
 	return searches
 
-session = HTMLSession()
+def af():
+	unique_data = ["Dreamland"]
+	maxCost = 1
+	searches = buildSearches(unique_data)
+	search = searches[0]
+	response = session.post('http://poe.trade/search', headers=headers, data=search)
+	lines = response.html.find(".item")
+	count = 0
+	if lines:
+		for line in lines:
+			if count > 3:
+				break
+			attributes = line.attrs
+			count = count + 1
+			seller = attributes['data-seller']
+			name = attributes['data-name']
+			league = attributes['data-league']
+			buyout = attributes['data-buyout']
+			tab = attributes['data-tab']
+			x = attributes['data-x']
+			y = attributes['data-y']
+			string = '@{} Hi, I would like to buy your {} listed for {} in {} (stash tab "{}"; position: left {}, top {})'.format(seller, name, buyout, league, tab, x, y)
+			tradebot.rapidfire(string)
 
-good_trades = []
 
 def cheapest(searches, unique_data):
 	for search in searches:
@@ -101,7 +124,7 @@ def cheapest(searches, unique_data):
 				difference = item_value - amount
 				toprint = search['name'] + ": " + str(item_value) + " - " + str(amount) + " = " + str(difference) + " " + str(difference/item_value)
 				print(toprint)
-				if difference >= 5:
+				if difference >= 10:
 					good_trades.append(search['name'])
 					winsound.Beep(1000, 500)
 					with open("pop.txt", "a") as myfile:
@@ -302,5 +325,6 @@ def allUniques():
 	cheapest(searches, unique_data)
 
 findRates()
+#af()
 openMaps(6)
 #allUniques()

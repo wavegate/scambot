@@ -2,12 +2,28 @@ import pyautogui
 from tkinter import Tk
 import pyperclip
 import re
+import win32gui
 
 #pyautogui.PAUSE = .5
 pyautogui.FAILSAFE = True
 #pyautogui.MINIMUM_DURATION = 0.001
 pyautogui.PAUSE = 0.05
 #pyautogui.MINIMUM_SLEEP = 0.001
+
+def windowEnumerationHandler(hwnd, top_windows):
+    top_windows.append((hwnd, win32gui.GetWindowText(hwnd)))
+
+def rapidfire(string):
+	results = []
+	top_windows = []
+	win32gui.EnumWindows(windowEnumerationHandler, top_windows)
+	for i in top_windows:
+		print(i)
+        #if "notepad" in i[1].lower():
+        #    print i
+        #    win32gui.ShowWindow(i[0],5)
+        #    win32gui.SetForegroundWindow(i[0])
+        #    break
 
 def copyMessage():
 	text = pyperclip.paste()
@@ -106,7 +122,7 @@ def makeTrade():
 	click('images/accept.png')
 	putInTrade()
 
-makeTrade()
+#makeTrade()
 #acceptTrade()
 
 #message('/hideout ' + charName)
