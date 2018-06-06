@@ -1,3 +1,9 @@
+import requests
+import webbrowser
+from requests_html import HTMLSession
+
+session = HTMLSession()
+
 search = [('league', 'Bestiary'),
 	  ('type', ''),
 	  ('base', ''),
@@ -43,7 +49,7 @@ search = [('league', 'Bestiary'),
 	  ('rint_min', ''),
 	  ('rint_max', ''),
 	  ('mod_name', '#% increased Fire Damage'),
-	  ('mod_min', '40'),
+	  ('mod_min', '35'),
 	  ('mod_max', ''),
 	  ('mod_weight', ''),
 	  ('group_type', 'And'),
@@ -92,3 +98,16 @@ headers = {
 	"Accept-Language" : "en-US,en;q=0.9",
 	"Cookie" : "_ga=GA1.2.206788054.1525455159; __cfduid=dc212bce0ec374351dd9bcebeae36c5501525493980; league=Bestiary; _gid=GA1.2.2088975945.1526632014"
 }
+
+def findRates():
+	rates_data = session.get("http://poe.ninja/api/Data/GetCurrencyOverview?league=Incursion").json()
+
+	if rates_data:
+	    for currency_data in rates_data['lines']:
+	        if currency_data['currencyTypeName'] in CURRENCY_FULL:
+	            parsed_rates_data[currency_data['currencyTypeName']] = currency_data['chaosEquivalent']
+
+response = session.post('http://poe.trade/search', headers=headers, data=search)
+line = response.html.find(".item")
+#webbrowser.open_new_tab(response.url)
+print(line[0])

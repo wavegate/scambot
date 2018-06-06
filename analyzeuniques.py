@@ -5,7 +5,11 @@ import json
 import webbrowser
 import searches
 import winsound
-import tradebot
+import pyperclip
+import pyautogui
+import time
+import random
+import autogui
 
 #Post limit, maximum pastes per 24h reached
 
@@ -78,29 +82,55 @@ def buildSearches(unique_data):
 		searches.append(search)
 	return searches
 
-def af():
-	unique_data = ["Dreamland"]
-	maxCost = 1
+def tradepage():
+	autogui.switchtopoe()
+	pyautogui.PAUSE = 0.2
+	unique_data = []
+	unique_data.append(input("What? "))
+	maxCost = 12
 	searches = buildSearches(unique_data)
 	search = searches[0]
 	response = session.post('http://poe.trade/search', headers=headers, data=search)
 	lines = response.html.find(".item")
 	count = 0
+	sellers = []
 	if lines:
 		for line in lines:
-			if count > 3:
+			if count >= 20:
 				break
 			attributes = line.attrs
-			count = count + 1
-			seller = attributes['data-seller']
-			name = attributes['data-name']
-			league = attributes['data-league']
-			buyout = attributes['data-buyout']
-			tab = attributes['data-tab']
-			x = attributes['data-x']
-			y = attributes['data-y']
-			string = '@{} Hi, I would like to buy your {} listed for {} in {} (stash tab "{}"; position: left {}, top {})'.format(seller, name, buyout, league, tab, x, y)
-			tradebot.rapidfire(string)
+			seller = attributes['data-ign']
+			if seller not in sellers:
+				name = attributes['data-name']
+				league = attributes['data-league']
+				buyout = attributes['data-buyout']
+				if chaosValue(buyout) <= maxCost:
+					tab = attributes['data-tab']
+					x = attributes['data-x']
+					y = attributes['data-y']
+					string = '@{} Hi, I would like to buy your {} listed for {} in {} (stash tab "{}"; position: left {}, top {})'.format(seller, name, buyout, league, tab, x, y)
+					pyperclip.copy(string)
+					pyautogui.press('enter')
+					time.sleep(random.uniform(0.3, 0.6))
+					pyautogui.hotkey('ctrl', 'a')
+					time.sleep(random.uniform(0.3, 0.6))
+					pyautogui.hotkey('ctrl', 'v')
+					time.sleep(random.uniform(0.3, 0.6))
+					pyautogui.press('enter')
+					sellers.append(seller)
+					count = count + 1
+
+def chaosValue(buyout):
+	amount = re.search("(\d{0,4}\.?\d{0,2}) (\w{3,5})", buyout).group(1)
+	match = re.search("(\w+) (\w{3,5})", buyout).group(2)
+	if match != "chaos":
+		for key, value in parsed_rates_data.items():
+			check = re.search(match, key, re.IGNORECASE)
+			if check:
+				amount = float(amount)*float(value)
+	amount = float(amount)
+	return amount
+
 
 
 def cheapest(searches, unique_data):
@@ -325,6 +355,6 @@ def allUniques():
 	cheapest(searches, unique_data)
 
 findRates()
-#af()
-openMaps(6)
+tradepage()
+#openMaps(6)
 #allUniques()

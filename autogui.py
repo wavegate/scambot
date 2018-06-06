@@ -2,9 +2,9 @@ import random
 import time
 from pywinauto import application
 from pywinauto.findwindows import WindowAmbiguousError, WindowNotFoundError
+import pyautogui
 
-
-def show_rand_app():
+def switchtopoe():
     # Init App object
     app = application.Application()
 
@@ -26,4 +26,9 @@ def show_rand_app():
         print('There are too many "%s" windows found' % random_app)
         pass
 
-show_rand_app()
+if __name__ == "__main__":
+    switchtopoe()
+    pyautogui.press('enter')
+    pyautogui.hotkey('ctrl', 'a')
+    pyautogui.hotkey('ctrl', 'v')
+    pyautogui.press('enter')
