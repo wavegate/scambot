@@ -83,7 +83,6 @@ def buildSearches(unique_data):
 	return searches
 
 def tradepage():
-	autogui.switchtopoe()
 	pyautogui.PAUSE = 0.2
 	unique_data = []
 	unique_data.append(input("What? "))
@@ -94,6 +93,7 @@ def tradepage():
 	lines = response.html.find(".item")
 	count = 0
 	sellers = []
+	autogui.switchtopoe()
 	if lines:
 		for line in lines:
 			if count >= 20:

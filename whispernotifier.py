@@ -14,6 +14,13 @@ def follow(thefile):
             continue
         yield line
 
+def waitforhideout(tradename):
+	logfile = open("C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt","r", encoding='utf8')
+	loglines = follow(logfile)
+	for line in loglines:
+		if "Hi" in line:
+			return 
+
 if __name__ == '__main__':
 	p = getpass.getpass()
 	client = Client('dingospetleg@gmail.com', p)
@@ -21,10 +28,12 @@ if __name__ == '__main__':
 	logfile = open("C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt","r", encoding='utf8')
 	loglines = follow(logfile)
 	for line in loglines:
-		if "From" in line:
+		if "From" in line or "&" in line:
 			print(line)
 			#winsound.Beep(1000, 500)
 			#pb.push_note("Title", line)
 			user = client.searchForUsers("Frank Lee")[0]
 			client.send(Message(text=line), thread_id=user.uid, thread_type=ThreadType.USER)
 	client.logout()
+
+
