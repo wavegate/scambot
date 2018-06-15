@@ -18,7 +18,7 @@ def waitforhideout(tradename):
 	logfile = open("C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt","r", encoding='utf8')
 	loglines = follow(logfile)
 	for line in loglines:
-		if "Hi" in line:
+		if "has joined the area." in line:
 			return 
 
 if __name__ == '__main__':

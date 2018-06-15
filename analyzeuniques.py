@@ -355,6 +355,6 @@ def allUniques():
 	cheapest(searches, unique_data)
 
 findRates()
-tradepage()
+#tradepage()
 #openMaps(6)
-#allUniques()
+allUniques()

@@ -57,8 +57,6 @@ def message(text):
 	pyautogui.press('enter')
 
 def withdraw(amount, currency):
-	pyautogui.moveTo(960, 480)
-	pyautogui.click()
 	#click('images/moneysymbol.png')
 	loc = pyautogui.locateOnScreen('images/chaos.png')
 	while loc == None:
